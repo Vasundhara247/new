@@ -1,0 +1,104 @@
+<html></html>
+    <head>
+        <title>Personal Details</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150vh;
+            margin: 2px;
+            background: url("https://img.freepik.com/free-photo/photorealistic-style-clouds-meadow_23-2151058826.jpg?t=st=1726676658~exp=1726680258~hmac=7762b115fc5130aa683f2fcda2d25f3671cd6efbaca3652ce1a038dbf9db3bdb&w=360"), #010614;
+            background-size: cover;
+
+            
+        }
+        h1{
+            color: rgb(51, 21, 128);
+            display: flex;
+            text-align: center;
+            justify-content: center;
+        }
+        fieldset{
+            border: bold;
+            margin-bottom: 10px;
+
+        }
+        form{
+            width:700px;
+            background-color:transparent;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
+        }
+        input[type=text],input[type=date],textarea,input[type=email],input[type=tel],input[type=password]{
+            width: 100%;
+            padding: 8px;
+            border: 1px solid white;
+            border-radius: 4px;
+            background-color: transparent;
+            color: rgb(16, 1, 1);
+        }
+        button{
+           
+            color: rgb(252, 248, 248);
+            cursor: pointer;
+            background-color: green;
+            padding: 10px;
+            font-size: medium;
+            margin-left:170px ;
+            width: 50%;
+           
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+    </head>
+    <body>
+        
+        <form>
+            
+            <fieldset>
+                <h1><b><u>PERSONAL DETAILS</u></b></h1>
+               <label> <b>Enter First Name:</b></label>
+            <input type="text" name="first name" required >
+            <br><br>
+                <label> <b>Enter Last Name:</b></label>
+                <input type="text" name="Last name" required>
+                <br><br>
+                    <label><b> Enter Email Id:</b></label>
+                    <input type="email" name="email" required>
+                    <br><br>
+                    <label><b>Enter password:</b></label>
+            <input type="password" name="password" required>
+            <br><br>
+                        <label><b>Phone Number:</b></label>
+                        <input type="tel" name="number" required>  
+                        <br><br>      
+                <label><b>Date Of Birth:</b></label>
+                <input type="date" name="dob" required>
+                <br><br>
+                <label><b>Gender:</b></label>
+                <input type="radio" name="gender" value="male"required>male
+                <input type="radio" name="gender" value="female" required>female
+                <input type="radio" name="gender" value="other" required>other
+                <br><br>
+                <label> <b>Enter Your Address:</b></label>
+                <textarea cols="=50" rows="5"value="Address" required></textarea>
+                <br><br>
+                <label><b>Hobbies:</b></label>
+                <input type="checkbox"  value="Travelling"required>Travelling
+                <input type="checkbox"  value="reading"required>reading the book
+                <input type="checkbox" value="cooking"required>cooking
+                <br><br>
+               <button type="submit" >Register</button>
+               <p>Already have an Account?
+                <a href="index.html">Login</a>
+            </p>
+                
+            </fieldset>
+            </form>
+            
+    </body>
+</html>
